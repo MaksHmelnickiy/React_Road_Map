@@ -3,12 +3,12 @@
 // ​‌‍‌⁡⁣⁣⁢Есть два вида тип-утверждений⁡​:
 
 // ⁡⁣⁢⁣1⁡. ⁡⁢⁣⁣Угловые скобки (< >)⁡ - более ⁡⁣⁣⁢старый способ⁡. Пример:
-let someValue: any = "hello world";
+let someValue: string = "hello world";
 let strLength: number = (<string>someValue).length;
 console.log('strLength', strLength)
 
 // ⁡⁣⁢⁣2⁡. Синтаксис "⁡⁢⁣⁣as⁡" - более ⁡⁣⁣⁢новый способ⁡. Пример:
-let someValueAs: any = "hello world";
+let someValueAs: string = "hello world";
 let strLengthAs: number = (someValue as string).length;
 console.log('strLengthAs', strLengthAs)
 
