@@ -5,15 +5,16 @@
 // Он позволяет ⁡⁣⁣⁢параметризовать типы⁡, используемые внутри конструкции, и ⁡⁣⁣⁢делает код более гибким и переиспользуемым⁡. 
 // Обобщения используют параметры типа (например, ⁡⁢⁣⁣T⁡ (⁡⁢⁢⁢возможна любая другая буква⁡)) для ⁡⁣⁣⁢обозначения неизвестных типов данных⁡.
 
-const useGenericState = <T>(initialValue: T): [T, (value: T) => void] => { // здесь даем ⁡⁢⁣⁣generic тип ⁡⁣⁢⁣T⁡⁡/ 
-    const [state, setState] = React.useState<T>(initialValue);
+// const useGenericState = <T>(initialValue: T): [T, (value: T) => void] => { // здесь даем ⁡⁢⁣⁣generic тип ⁡⁣⁢⁣T⁡⁡/ 
+//   // eslint-disable-next-line @typescript-eslint/no-unused-vars, prefer-destructuring, 
+//     const [state, setState] = React.useState<T>(initialValue);
 
-    const updateState = (value: T) => {
-      setState(value);
-    };
+//     const updateState = (value: T) => {
+//       setState(value);
+//     };
   
-    return [state, updateState];
+//     return [state, updateState];
  
-}
+// }
 
-const [count, setCount] = useGenericState<number>(0); // а здесь уже подставляем ⁡⁢⁣⁣нужный нам ⁡⁣⁢⁣тип⁡⁡⁡.
+// const [count, setCount] = useGenericState<number>(0); // а здесь уже подставляем ⁡⁢⁣⁣нужный нам ⁡⁣⁢⁣тип⁡⁡⁡.

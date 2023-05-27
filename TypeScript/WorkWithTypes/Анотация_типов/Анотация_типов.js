@@ -10,6 +10,6 @@ function addNumbers(x, y) {
 // ⁡⁣⁣⁢Пример функции⁡ с неявными типами 
 function sayHello(name) {
     if (name === void 0) { name = "world"; }
-    console.log("Hello, ".concat(name, "!"));
+    console.log("Hello, " + name + "!");
 }
 sayHello();

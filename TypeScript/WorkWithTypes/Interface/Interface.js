@@ -5,7 +5,7 @@
 function getPerson(person) {
     return person.greet + ' ' + person.firstName + ' ' + person.lastName + ' ' + person.age;
 }
-var ьax = {
+var max = {
     firstName: "Max",
     lastName: "Hmel",
     age: 33,
@@ -13,7 +13,7 @@ var ьax = {
         return 'Hello';
     }
 };
-console.log(getPerson(ьax)); // '⁡⁣⁢⁣Hello Max Hmel 33⁡'
+console.log(getPerson(max)); // '⁡⁣⁢⁣Hello Max Hmel 33⁡'
 // ⁡⁣⁣⁢​‌‍‌Последовательное описание всего кода​⁡.
 // В этом примере ⁡⁣⁣⁢определен интерфейс⁡ ⁡⁢⁣⁣Person⁡, который ⁡⁣⁣⁢задает структуру⁡ для объектов, 
 // которые должны иметь свойства ⁡⁣⁢⁣firstName⁡, ⁡⁣⁢⁣lastName⁡, ⁡⁣⁢⁣age⁡ и ⁡⁣⁢⁣метод greet⁡. 

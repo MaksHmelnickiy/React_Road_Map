@@ -17,7 +17,7 @@ function getPerson(person: Person){
     return person.greet + ' ' +  person.firstName + ' ' + person.lastName + ' ' + person.age;
 } 
 
-const ьax: Person = {
+const max: Person = {
     firstName: "Max",
     lastName: "Hmel",
     age: 33,
@@ -26,7 +26,7 @@ const ьax: Person = {
     }
 }
 
-console.log(getPerson(ьax)) // '⁡⁣⁢⁣Hello Max Hmel 33⁡'
+console.log(getPerson(max)) // '⁡⁣⁢⁣Hello Max Hmel 33⁡'
 
 // ⁡⁣⁣⁢​‌‍‌Последовательное описание всего кода​⁡.
 
