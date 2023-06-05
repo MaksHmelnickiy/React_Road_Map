@@ -10,7 +10,7 @@ var myNumObj = {
 };
 console.log('myNumObj', myNumObj);
 var myNumFunc = function (name, age) {
-    return "".concat(name, " ").concat(age);
+    return name + " " + age;
 };
 console.log(myNumFunc('Bob', 32));
 // Здесь мы определили ⁡⁢⁣⁣тип⁡ ⁡⁢⁣⁣MyNumTypeFunc⁡ как функцию, ⁡⁣⁣⁢принимающую два аргумента типов string и number и возвращающую строку⁡. 

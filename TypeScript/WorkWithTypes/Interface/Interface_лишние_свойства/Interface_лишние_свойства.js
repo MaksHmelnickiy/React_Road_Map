@@ -3,7 +3,6 @@
 var obj = {
     name: 'Max',
     age: 33,
-    // ⁡⁣⁢⁣lastName: 'Hmel'⁡ // ⁡⁢⁣⁣lastName⁡ выдаст ⁡⁢⁣⁢ошибку⁡ , так как его ⁡⁢⁣⁢не существует⁡ в ⁡⁢⁣⁣Extra⁡.
 };
 var obj2 = {
     name: 'Max',
