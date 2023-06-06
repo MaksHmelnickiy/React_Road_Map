@@ -13,6 +13,6 @@ var person = {
     age: 25,
 };
 function greet(person) {
-    console.log("Hello, " + person.name + "! You are " + person.age + " years old.");
+    console.log("Hello, ".concat(person.name, "! You are ").concat(person.age, " years old."));
 }
 greet(person); // Вывод: Hello, John! You are 25 years old.
