@@ -4,6 +4,7 @@ import { MyUseState } from './LearnReact/React_hooks/useState/useState';
 import { MyUseStateWithObject } from './LearnReact/React_hooks/useState/useStateWithObj';
 import { MyUseEffect } from './LearnReact/React_hooks/useEffect/useEffect';
 import { MyTaskUseEffect } from './LearnReact/React_hooks/useEffect/TASKS';
+import { MyUseContextParent } from './LearnReact/React_hooks/useContext/useContext';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         {/* <MyUseStateWithObject /> */}
         <hr />
         {/* <MyUseEffect /> */}
-        <MyTaskUseEffect />
+        {/* <MyTaskUseEffect /> */}
+        <hr />
+        <MyUseContextParent />
       </header>
     </div>
   );
