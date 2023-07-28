@@ -8,6 +8,9 @@ import { MyUseContextParent } from './LearnReact/React_hooks/useContext/useConte
 import { ChildComponent } from './LearnReact/React_hooks/useContext/task/child';
 import { ParentComponent } from './LearnReact/React_hooks/useContext/task/parent';
 import { MyUseCallBack } from './LearnReact/React_hooks/useCallback/useCallback';
+import { Task1ParentUseCallback } from './LearnReact/React_hooks/useCallback/task/task1parentUseCallback';
+import { Task2UseCallback } from './LearnReact/React_hooks/useCallback/task2/task2useCallback';
+import { Task3UseCallback } from './LearnReact/React_hooks/useCallback/task3/task3useCallback';
 
 
 function App() {
@@ -24,7 +27,11 @@ function App() {
         {/* <MyUseContextParent /> */}
       </header>
       {/* <ParentComponent /> */}
+
       <MyUseCallBack />
+      <Task1ParentUseCallback />
+      <Task2UseCallback />
+      <Task3UseCallback />
     </div>
   );
 }
