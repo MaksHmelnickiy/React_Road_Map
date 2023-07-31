@@ -7,11 +7,11 @@ import React from "react";
 export const MyUseCallBack = () => {
   const [state, setState] = React.useState(0)
 
-  const incrementCount = React.useCallback(() => { 
+  const incrementCount = () => { 
     setState(state + 1);
     // ⁡⁢⁣⁣useCallback⁡ используется для обеспечения ⁡⁣⁣⁢стабильности ссылки⁡ на функцию incrementCount. 
     // Это значит, что ⁡⁣⁣⁢incrementCount⁡ будет пересоздана только тогда, когда ⁡⁣⁣⁢изменится значение ⁡⁢⁣⁣state⁡, что указано в массиве зависимостей.
-  },[state]) // ⁡⁢⁣⁣массив⁡ ⁡⁢⁣⁣Зависимости⁡, если ⁡⁣⁣⁢изменилась⁡ функция создасться заново. 
+  } // ⁡⁢⁣⁣массив⁡ ⁡⁢⁣⁣Зависимости⁡, если ⁡⁣⁣⁢изменилась⁡ функция создасться заново. 
   
   return <><h1>Count: {state}</h1> <button onClick={incrementCount}>Click</button></>
 }

@@ -11,6 +11,8 @@ import { MyUseCallBack } from './LearnReact/React_hooks/useCallback/useCallback'
 import { Task1ParentUseCallback } from './LearnReact/React_hooks/useCallback/task/task1parentUseCallback';
 import { Task2UseCallback } from './LearnReact/React_hooks/useCallback/task2/task2useCallback';
 import { Task3UseCallback } from './LearnReact/React_hooks/useCallback/task3/task3useCallback';
+import { MyUseMemo } from './LearnReact/React_hooks/useMemo/useMemo';
+import { Task1UseMemo } from './LearnReact/React_hooks/useMemo/task/task1useMemo';
 
 
 function App() {
@@ -32,6 +34,9 @@ function App() {
       <Task1ParentUseCallback />
       <Task2UseCallback />
       <Task3UseCallback />
+
+      <MyUseMemo />
+      <Task1UseMemo />
     </div>
   );
 }
