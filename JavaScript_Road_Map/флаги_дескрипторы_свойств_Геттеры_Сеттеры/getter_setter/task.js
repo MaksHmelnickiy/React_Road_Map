@@ -41,7 +41,7 @@ const bankAccount = {
   }
 }
 
-console.log(bankAccount.currentBalance) // 300
+console.log(bankAccount.currentBalance)
 bankAccount.deposit = 100
 console.log(bankAccount.currentBalance)
 bankAccount.withdraw = 100
