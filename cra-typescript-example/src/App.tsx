@@ -13,6 +13,7 @@ import { Task2UseCallback } from './LearnReact/React_hooks/useCallback/task2/tas
 import { Task3UseCallback } from './LearnReact/React_hooks/useCallback/task3/task3useCallback';
 import { MyUseMemo } from './LearnReact/React_hooks/useMemo/useMemo';
 import { Task1UseMemo } from './LearnReact/React_hooks/useMemo/task/task1useMemo';
+import { FactorialCalculator } from './LearnReact/React_hooks/useMemo/task/task2';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
 
       <MyUseMemo />
       <Task1UseMemo />
+      <FactorialCalculator />
     </div>
   );
 }

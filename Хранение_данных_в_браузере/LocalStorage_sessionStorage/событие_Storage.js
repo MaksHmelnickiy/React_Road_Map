@@ -31,3 +31,44 @@ localStorage.setItem('surname', 'Hmel')
 
 // ⁡⁢⁣⁣Обмен данными между веб-приложением и внешними инструментами:⁡ Если ваше веб-приложение взаимодействует с внешними инструментами
 //  (например, браузерными расширениями), событие storage может служить механизмом обмена данными.
+
+// Получаем элементы DOM
+const counterElement = document.getElementById('counter');
+const incrementButton = document.getElementById('increment');
+const resetButton = document.getElementById('reset');
+
+// Функция для увеличения счетчика
+const incrementCounter = () => {
+    const currentValue = parseInt(localStorage.getItem('counter')) || 0;
+    const newValue = currentValue + 1;
+    localStorage.setItem('counter', newValue.toString());
+    counterElement.textContent = newValue;
+};
+
+// Функция для сброса счетчика
+const resetCounter = () => {
+    localStorage.removeItem('counter');
+    counterElement.textContent = '0';
+};
+
+// Обработчик события на кнопку "Увеличить"
+incrementButton.addEventListener('click', incrementCounter);
+
+// Обработчик события на кнопку "Сбросить"
+resetButton.addEventListener('click', resetCounter);
+
+// Функция для обработки события storage
+const handleStorageChange = (e) => {
+    if (e.key === 'counter') {
+        counterElement.textContent = e.newValue || '0';
+    }
+};
+
+// Прослушивание события storage
+window.addEventListener('storage', handleStorageChange);
+
+// Инициализация значения счетчика при загрузке страницы
+const initialValue = localStorage.getItem('counter');
+if (initialValue) {
+    counterElement.textContent = initialValue;
+}
