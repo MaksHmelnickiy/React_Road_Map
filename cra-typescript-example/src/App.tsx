@@ -17,6 +17,7 @@ import { FactorialCalculator } from './LearnReact/React_hooks/useMemo/task/task2
 import { CounterUseReducer } from './LearnReact/React_hooks/useReducer/useReducer';
 import { UseReducerBasketTask1 } from './LearnReact/React_hooks/useReducer/tasks/task1';
 import { UseReducerHistoryTask2 } from './LearnReact/React_hooks/useReducer/tasks/task2';
+import { UseReducerTodoListTask3 } from './LearnReact/React_hooks/useReducer/tasks/task3';
 
 
 function App() {
@@ -45,7 +46,8 @@ function App() {
 
       {/* <CounterUseReducer /> */}
       {/* <UseReducerBasketTask1 /> */}
-      <UseReducerHistoryTask2 />
+      {/* <UseReducerHistoryTask2 /> */}
+      <UseReducerTodoListTask3 />
     </div>
   );
 }
