@@ -14,6 +14,9 @@ import { Task3UseCallback } from './LearnReact/React_hooks/useCallback/task3/tas
 import { MyUseMemo } from './LearnReact/React_hooks/useMemo/useMemo';
 import { Task1UseMemo } from './LearnReact/React_hooks/useMemo/task/task1useMemo';
 import { FactorialCalculator } from './LearnReact/React_hooks/useMemo/task/task2';
+import { CounterUseReducer } from './LearnReact/React_hooks/useReducer/useReducer';
+import { UseReducerBasketTask1 } from './LearnReact/React_hooks/useReducer/tasks/task1';
+import { UseReducerHistoryTask2 } from './LearnReact/React_hooks/useReducer/tasks/task2';
 
 
 function App() {
@@ -31,14 +34,18 @@ function App() {
       </header>
       {/* <ParentComponent /> */}
 
-      <MyUseCallBack />
+      {/* <MyUseCallBack />
       <Task1ParentUseCallback />
       <Task2UseCallback />
-      <Task3UseCallback />
+      <Task3UseCallback /> */}
 
-      <MyUseMemo />
+      {/* <MyUseMemo />
       <Task1UseMemo />
-      <FactorialCalculator />
+      <FactorialCalculator /> */}
+
+      {/* <CounterUseReducer /> */}
+      {/* <UseReducerBasketTask1 /> */}
+      <UseReducerHistoryTask2 />
     </div>
   );
 }
