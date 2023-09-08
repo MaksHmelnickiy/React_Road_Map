@@ -9,25 +9,35 @@ interface Task {
 }
 
 interface State {
-  tasks: Task[]
+  tasks: Task[],
+  completedTasksCount: number,
 }
 
 const initialState:State = {
-  tasks: []
+  tasks: [],
+  completedTasksCount: 0
 }
 
-type Action = {type: 'add', text: string} | {type: 'delete', index: number} | {type: 'toggle', completed: boolean}
+type Action = {type: 'add', text: string} | {type: 'delete', index: number} | {type: 'toggle', completed: boolean, index: number}
 
 const reducer = (state: State, action: Action): State => {
   switch (action.type) {
-    case 'add': return {tasks: [...state.tasks,  {task: action.text}]};
+    case 'add': return {tasks: [...state.tasks,  {task: action.text, completed: false}], completedTasksCount: state.completedTasksCount};
     case 'delete': return {tasks: state.tasks.filter(
       (item,index) => {
       if(index !== action.index){
         return item
       }
-    })};
-    case 'toggle': return {tasks: [...state.tasks, {completed: action.completed}]};
+    }), completedTasksCount: state.completedTasksCount};
+    case 'toggle': console.log(state);
+    const countTasks = state.tasks.map((item,index) => {
+      if(index === action.index){
+        return {...item, completed: action.completed}
+      }
+      return item
+    })
+    const countCompleted = countTasks.filter(item => item.completed === true).length
+    return {tasks: countTasks, completedTasksCount: countCompleted}
     default: return state
   }
 }
@@ -35,8 +45,11 @@ const reducer = (state: State, action: Action): State => {
 export const UseReducerTodoListTask3 = () =>{
   const [state, dispatch] = React.useReducer(reducer, initialState);
   const [text, setText] = React.useState('')
+
   return <>
           <ul style={{ background: 'lightGray', width: '300px', padding: '20px', margin: '50px auto' }}>
+            <h4>Задач в списке: {state.tasks.length}</h4>
+            <h4>Выполненных задач: {state.completedTasksCount}</h4>
           {state.tasks.map((item, key) => (
             <li key={key} style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '10px' }}>
               {item.task}
@@ -46,7 +59,7 @@ export const UseReducerTodoListTask3 = () =>{
               >
                 Delete
               </button>
-              <input type='checkbox' onChange={(e) => dispatch({type: 'toggle', completed: e.target.checked})} />
+              <input type='checkbox' onChange={(e) => dispatch({type: 'toggle', completed: e.target.checked, index: key})} />
             </li>
           ))}
         </ul>
