@@ -32,7 +32,7 @@ const reducer = (state: State, action: Action): State => {
 // ⁡⁢⁣⁣initialState⁡ и ⁡⁢⁣⁣reducer⁡ определяють лучше ⁡⁢⁣⁢вне⁡ ⁡⁣⁣⁢функционального компонента⁡, 
 // так как мы сможем: его повторно использовать, чистота кода, лучше для тестирования⁡, и это хорошая практика.
 
-export const CounterUseReducer:React.FC = () => {
+export const MyUseReducer:React.FC = () => {
   const [state, dispatch] = React.useReducer(reducer,initialState)
   return <div>
     <div>{state.count}</div>
