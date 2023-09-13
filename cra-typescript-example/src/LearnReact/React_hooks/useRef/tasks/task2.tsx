@@ -4,11 +4,17 @@
 
 import React from "react"
 
-export const useRefTask2 = () =>{
-  const myRef = React.useRef(null)
-  const [count, setCounter] = React.useState(0)
+export const UseRefTask2 = () =>{
+  const [count, setCount] = React.useState(0)
+  const myRef = React.useRef(0)
 
+  const useClick = React.useCallback(() => {
+    console.log(myRef)
+    myRef.current +=1
+    setCount(myRef.current)
+  },[])
   return <div>
-    <button ></button>
+    {count}
+    <button onClick={useClick}>Click</button>
   </div>
 }

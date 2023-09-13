@@ -19,21 +19,28 @@ import { UseReducerBasketTask1 } from './LearnReact/React_hooks/useReducer/tasks
 import { UseReducerHistoryTask2 } from './LearnReact/React_hooks/useReducer/tasks/task2';
 import { UseReducerTodoListTask3 } from './LearnReact/React_hooks/useReducer/tasks/task3';
 import { MyUseRef } from './LearnReact/React_hooks/useRef/useRef';
+import { UseRefTask2 } from './LearnReact/React_hooks/useRef/tasks/task2';
+import { UseRefTask1 } from './LearnReact/React_hooks/useRef/tasks/task1';
+import { UseRefTask3 } from './LearnReact/React_hooks/useRef/tasks/task3';
+import { UseRefTask4 } from './LearnReact/React_hooks/useRef/tasks/task4';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <MyUseState /> */}
-        <hr />
-        {/* <MyUseStateWithObject /> */}
-        <hr />
-        {/* <MyUseEffect /> */}
-        {/* <MyTaskUseEffect /> */}
-        <hr />
-        {/* <MyUseContextParent /> */}
       </header>
+      {/* <MyUseState /> */}
+      <hr />
+      {/* <MyUseStateWithObject /> */}
+      <hr />
+
+      {/* <MyUseEffect /> */}
+      {/* <MyTaskUseEffect /> */}
+      <hr />
+      
+      {/* <MyUseContextParent /> */}
+
       {/* <ParentComponent /> */}
 
       {/* <MyUseCallBack />
@@ -50,7 +57,11 @@ function App() {
       {/* <UseReducerHistoryTask2 /> */}
       {/* <UseReducerTodoListTask3 /> */}
 
-      <MyUseRef />
+      {/* <MyUseRef /> */}
+      {/* <UseRefTask2 /> */}
+      {/* <UseRefTask1 /> */}
+      {/* <UseRefTask3 /> */}
+      <UseRefTask4 />
     </div>
   );
 }
