@@ -24,6 +24,8 @@ import { UseRefTask1 } from './LearnReact/React_hooks/useRef/tasks/task1';
 import { UseRefTask3 } from './LearnReact/React_hooks/useRef/tasks/task3';
 import { UseRefTask4 } from './LearnReact/React_hooks/useRef/tasks/task4';
 import { SetMyHookComponent } from './LearnReact/React_hooks/useMyHook/setMyHookComponent';
+import { UseMyHookTask1 } from './LearnReact/React_hooks/useMyHook/tasks/task1/task1';
+import { UseMyHookTask2 } from './LearnReact/React_hooks/useMyHook/tasks/task2/task2';
 
 
 function App() {
@@ -65,7 +67,9 @@ function App() {
       {/* <UseRefTask4 /> */}
 
 
-      <SetMyHookComponent />
+      {/* <SetMyHookComponent /> */}
+      {/* <UseMyHookTask1 /> */}
+      <UseMyHookTask2 />
     </div>
   );
 }

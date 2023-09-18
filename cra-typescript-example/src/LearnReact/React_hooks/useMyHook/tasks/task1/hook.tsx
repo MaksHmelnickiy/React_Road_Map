@@ -16,5 +16,41 @@
 
 import React from "react";
 
+export const myHookTask1 = () => {
+  const getStorage = (key: string = '') => {
+    try {
+      const value = localStorage.getItem(key);
+      return value !== null ? JSON.parse(value) : null;
+    } catch (error) {
+      console.error("Error while reading from localStorage:", error);
+      return null;
+    }
+  };
 
+  const setStorage = (key: string = '', value: any) => {
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+      return true;
+    } catch (error) {
+      console.error("Error while writing to localStorage:", error);
+      return false;
+    }
+  };
+
+  const removeStorage = (key: string = '') => {
+    try {
+      localStorage.removeItem(key);
+      return true;
+    } catch (error) {
+      console.error("Error while removing from localStorage:", error);
+      return false;
+    }
+  };
+
+  return {
+    getStorage,
+    setStorage,
+    removeStorage
+  };
+}
 
