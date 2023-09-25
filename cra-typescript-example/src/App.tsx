@@ -26,6 +26,9 @@ import { UseRefTask4 } from './LearnReact/React_hooks/useRef/tasks/task4';
 import { SetMyHookComponent } from './LearnReact/React_hooks/useMyHook/setMyHookComponent';
 import { UseMyHookTask1 } from './LearnReact/React_hooks/useMyHook/tasks/task1/task1';
 import { UseMyHookTask2 } from './LearnReact/React_hooks/useMyHook/tasks/task2/task2';
+import { UseMyHookTask3 } from './LearnReact/React_hooks/useMyHook/tasks/task3/task3';
+import { AppRoute } from './LearnReact/React_Router/About_React_Router';
+import { MyOutlet } from './LearnReact/React_Router/Outlet_Общая_Разметка';
 
 
 function App() {
@@ -34,13 +37,10 @@ function App() {
       <header className="App-header">
       </header>
       {/* <MyUseState /> */}
-      <hr />
       {/* <MyUseStateWithObject /> */}
-      <hr />
 
       {/* <MyUseEffect /> */}
       {/* <MyTaskUseEffect /> */}
-      <hr />
       
       {/* <MyUseContextParent /> */}
 
@@ -69,7 +69,12 @@ function App() {
 
       {/* <SetMyHookComponent /> */}
       {/* <UseMyHookTask1 /> */}
-      <UseMyHookTask2 />
+      {/* <UseMyHookTask2 /> */}
+      {/* <UseMyHookTask3 /> */}
+
+      {/* ⁡⁣⁣⁢React Router⁡ */}
+      {/* <AppRoute /> */}
+      <MyOutlet />
     </div>
   );
 }
