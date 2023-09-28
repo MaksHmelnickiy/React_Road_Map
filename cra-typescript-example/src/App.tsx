@@ -29,6 +29,7 @@ import { UseMyHookTask2 } from './LearnReact/React_hooks/useMyHook/tasks/task2/t
 import { UseMyHookTask3 } from './LearnReact/React_hooks/useMyHook/tasks/task3/task3';
 import { AppRoute } from './LearnReact/React_Router/About_React_Router';
 import { MyOutlet } from './LearnReact/React_Router/Outlet_Общая_Разметка';
+import { MyLinkAndNavLink } from './LearnReact/React_Router/Link_Навигация_между_маршрутами';
 
 
 function App() {
@@ -74,7 +75,8 @@ function App() {
 
       {/* ⁡⁣⁣⁢React Router⁡ */}
       {/* <AppRoute /> */}
-      <MyOutlet />
+      {/* <MyOutlet /> */}
+      <MyLinkAndNavLink />
     </div>
   );
 }
