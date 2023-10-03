@@ -32,6 +32,7 @@ import { MyOutlet } from './LearnReact/React_Router/Outlet_Общая_Разме
 import { MyLinkAndNavLink } from './LearnReact/React_Router/Link_Навигация_между_маршрутами';
 import { MyUseParams } from './LearnReact/React_Router/React-Router_Hooks/useParams';
 import { MyUseParamsTask1 } from './LearnReact/React_Router/React-Router_Hooks/useParams/task1';
+import { MyUseNavigate } from './LearnReact/React_Router/React-Router_Hooks/useNavigate_Navigate';
 
 
 function App() {
@@ -77,10 +78,15 @@ function App() {
 
       {/* ⁡⁣⁣⁢React Router⁡ */}
       {/* <AppRoute /> */}
+
       {/* <MyOutlet /> */}
+
       {/* <MyLinkAndNavLink /> */}
+
       {/* <MyUseParams /> */}
-      <MyUseParamsTask1 />
+      {/* <MyUseParamsTask1 /> */}
+      
+      <MyUseNavigate />
     </div>
   );
 }
