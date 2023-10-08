@@ -33,6 +33,7 @@ import { MyLinkAndNavLink } from './LearnReact/React_Router/Link_Навигац�
 import { MyUseParams } from './LearnReact/React_Router/React-Router_Hooks/useParams';
 import { MyUseParamsTask1 } from './LearnReact/React_Router/React-Router_Hooks/useParams/task1';
 import { MyUseNavigate } from './LearnReact/React_Router/React-Router_Hooks/useNavigate_Navigate';
+import { MyUseLocation } from './LearnReact/React_Router/React-Router_Hooks/useLocation';
 
 
 function App() {
@@ -85,8 +86,10 @@ function App() {
 
       {/* <MyUseParams /> */}
       {/* <MyUseParamsTask1 /> */}
-      
-      <MyUseNavigate />
+
+      {/* <MyUseNavigate /> */}
+
+      <MyUseLocation />
     </div>
   );
 }
