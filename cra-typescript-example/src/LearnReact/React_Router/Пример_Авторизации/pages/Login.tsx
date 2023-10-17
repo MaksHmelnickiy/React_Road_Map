@@ -12,8 +12,9 @@ export const Login = () => {
     e.preventDefault()
     const form = e.target as HTMLFormElement;
     const value = (form.querySelector('input[name="username"]') as HTMLInputElement).value
-    signIn(value, () => navigate('authTrue'))
-  },[navigate])
+    console.log(fromPage)
+    signIn(value, () => navigate(fromPage, {replace: true}))
+  },[])
   if(!auth){
     return null
   }
