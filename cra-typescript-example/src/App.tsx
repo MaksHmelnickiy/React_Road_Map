@@ -36,6 +36,7 @@ import { MyUseNavigate } from './LearnReact/React_Router/React-Router_Hooks/useN
 import { MyUseLocation } from './LearnReact/React_Router/React-Router_Hooks/useLocation';
 import { ExampleAuth } from './LearnReact/React_Router/Пример_Авторизации';
 import { CopyAuth } from './LearnReact/React_Router/Пример_Авторизации/Copy_Auth';
+import { MyUseSearchParams } from './LearnReact/React_Router/React-Router_Hooks/useSearchParams';
 
 
 function App() {
@@ -95,7 +96,9 @@ function App() {
 
       {/* ⁡⁣⁣⁢Пример авторизации с использованием useNavigate useLocation useContext⁡ */}
       {/* <ExampleAuth /> */}
-      <CopyAuth />
+      {/* <CopyAuth /> */}
+
+      <MyUseSearchParams />
     </div>
   );
 }
