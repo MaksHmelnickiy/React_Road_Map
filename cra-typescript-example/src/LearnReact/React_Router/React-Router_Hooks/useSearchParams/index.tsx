@@ -1,6 +1,6 @@
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom"
 import { Home } from "./pages/Home"
-import { Blogs } from "./pages/Blogs"
+import { Blogs } from "./pages/Blogs_useSearchParams"
 import { About } from "./pages/About"
 import { SingleBlog } from "./pages/SingleBlog"
 

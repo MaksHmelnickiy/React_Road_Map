@@ -15,7 +15,7 @@ export const SingleBlog = () => {
     .then(resp => resp.json())
     .then(data => setData(data))
     .catch(error => console.log(error))
-  },[])
+  },[id])
   return <div>
     <h1>{data?.title}</h1>
     {data?.body}
