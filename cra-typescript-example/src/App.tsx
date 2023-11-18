@@ -37,6 +37,9 @@ import { MyUseLocation } from './LearnReact/React_Router/React-Router_Hooks/useL
 import { ExampleAuth } from './LearnReact/React_Router/Пример_Авторизации';
 import { CopyAuth } from './LearnReact/React_Router/Пример_Авторизации/Copy_Auth';
 import { MyUseSearchParams } from './LearnReact/React_Router/React-Router_Hooks/useSearchParams';
+import { MyNestedRoutes } from './LearnReact/React_Router/Вложенные_роуты';
+import { MyUseMatch } from './LearnReact/React_Router/React-Router_Hooks/useMatch';
+import { MyUseMatchTask } from './LearnReact/React_Router/React-Router_Hooks/useMatch/task';
 
 
 function App() {
@@ -98,7 +101,12 @@ function App() {
       {/* <ExampleAuth /> */}
       {/* <CopyAuth /> */}
 
-      <MyUseSearchParams />
+      {/* <MyUseSearchParams /> */}
+
+      {/* <MyNestedRoutes /> */}
+
+      {/* <MyUseMatch /> */}
+      <MyUseMatchTask />
     </div>
   );
 }
