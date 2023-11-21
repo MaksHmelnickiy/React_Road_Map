@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { Home } from "./pages/Home"
 import { Posts } from "./pages/Posts"
 import { CustomLink } from "../CastomLink_UseMatch"
+import { SinglePost } from "./pages/SinglePost"
 
 // Цель задачи: Разработать компонент "Breadcrumb" (хлебные крошки), который будет отображать иерархию навигации на сайте и выделять текущую страницу.
 export const MyUseMatchTask = () => {
@@ -10,7 +11,9 @@ export const MyUseMatchTask = () => {
     <CustomLink to="posts">Posts</CustomLink>
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='posts' element={<Posts />} />
+      <Route path='posts' element={<Posts />} >
+        <Route path=":id" element={<SinglePost />} />
+      </Route>
     </Routes>
   </BrowserRouter>
 }

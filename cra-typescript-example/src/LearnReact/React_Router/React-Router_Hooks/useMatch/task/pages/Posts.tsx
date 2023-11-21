@@ -1,8 +1,8 @@
 import React from "react"
 import { Breadcrumbs } from "../BreadCrumpsComponent/BreadCrumpsComponent"
-import { useParams } from "react-router-dom"
+import { Outlet, useParams } from "react-router-dom"
 
-interface IPage {
+export interface IPage {
   title: string
   id: number
   body: string
@@ -16,6 +16,8 @@ export const Posts = () => {
   console.log(data)
   return <div>
     <h1>Posts</h1>
-    <Breadcrumbs pages={data} />
+    <Outlet />
+    <Breadcrumbs pages={data || []} />
+
   </div>
 }
