@@ -1,0 +1,1606 @@
+{
+  "logo": "Merchant Portal",
+  "common": {
+    "requiredField": "Field is required",
+    "incorrectEmail": "Email is incorrect",
+    "goHomeButton": "Go to main page",
+    "enableAll": "Enable all",
+    "columns": "Columns",
+    "tableSettings": "Table settings",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "Ok",
+    "on": "On",
+    "off": "Off",
+    "not": "not",
+    "noItemsFound": "No matching item found",
+    "anotherFiltersCombination": "Try another filter combination",
+    "active": "Active",
+    "inactive": "Inactive",
+    "apply": "Apply",
+    "edit": "Edit",
+    "clone": "Clone",
+    "reset": "Reset",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "create": "Create",
+    "default": "Default",
+    "dontChange": "Do not change",
+    "dontSet": "Do not set",
+    "imagePreview": "Image preview",
+    "loadingItems": "Loading items",
+    "singleDate": "YYYY-MM-DD",
+    "copied": "Copied",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "refresh": "Refresh",
+    "custom": "Custom",
+    "time": {
+      "hours": "h",
+      "minutes": "min",
+      "timeFormat": "HH : MM",
+      "hh": "HH",
+      "mm": "MM"
+    },
+    "transferPage": {
+      "cancel": "Cancel",
+      "assign": "Assign"
+    },
+    "transferList": {
+      "all": "All",
+      "list": "List",
+      "available": "Available",
+      "selected": "Selected",
+      "assigned": "Assigned",
+      "listEmpty": "List is empty",
+      "items": "items",
+      "noAssignedItems": "No assigned ",
+      "check": "Check",
+      "checkInColumn": "in the left column and click the move arrow"
+    },
+    "formValidation": {
+      "requiredField": "Field is required",
+      "inputCorrectEmail": "Input correct email address",
+      "passwordsMatch": "Passwords must match"
+    },
+    "status": {
+      "any": "Any",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "pagination": {
+      "to": "to",
+      "of": "of",
+      "entries": "entries",
+      "itemsPerPage": "Records per page"
+    },
+    "filters": {
+      "globalSearch": "Search",
+      "button": "Filters",
+      "addButton": "Add filter",
+
+      "selectLabel": "Column",
+      "selectPlaceholder": "Select",
+
+      "filtrationStrategy": "Strategy",
+
+      "minFilter": "Min",
+      "maxFilter": "Max",
+
+      "filterLabel": "Filter",
+      "inputSearchPlaceholder": "Type...",
+      "selectFilterPlaceholder": "Select filter",
+
+      "moreOrEquals": "More or equals",
+      "lessOrEquals": "Less or equals",
+      "equals": "Equals",
+      "notEquals": "Not equals",
+      "like": "Like",
+      "notLike": "Not like",
+      "range": "Range",
+      "contains": "Contains",
+      "period": "Period",
+      "unlimited": "Unlimited"
+    },
+    "sorting": {
+      "ascending": "ascending",
+      "descending": "descending",
+      "order": "Order of",
+      "changed": "changed to",
+      "off": "Sorted by",
+      "notification": "Notification",
+      "defaultSortText": "Sorted by default"
+    },
+    "fontWeights": {
+      "900": "Ultra",
+      "800": "Black",
+      "700": "Bold",
+      "600": "Semi bold",
+      "500": "Medium",
+      "400": "Normal",
+      "300": "Light",
+      "200": "Extra light",
+      "100": "Thin"
+    },
+    "datepicker": {
+      "datePresetTitle": "Date Preset",
+      "datePresetInputPlaceholder": "Input range",
+      "datePresetSelectPlaceholder": "Select Rage",
+      "cancelButtonText": "Clear",
+      "applyButtonText": "Apply",
+      "timeLabel": "Time",
+      "timezonesPlaceholder": "Select Time Zone",
+      "presets": {
+        "previousHours": "Previous hours",
+        "previousDays": "Previous days",
+        "previousWeeks": "Previous weeks",
+        "previousMonths": "Previous months",
+        "previousYears": "Previous years",
+
+        "currentDay": "Current day",
+        "previousDay": "Previous day",
+        "currentWeek": "Current week",
+        "previousWeek": "Previous week",
+        "currentMonth": "Current month",
+        "previousMonth": "Previous month",
+        "currentYear": "Current year",
+        "previousYear": "Previous year"
+      },
+      "datepickerInput": {
+        "label":  "Date range",
+        "placeholder": "Select dates"
+      }
+    }
+  },
+  "groupEdit": {
+    "title": "Group edit",
+    "allSelected": "Filtered items are selected",
+    "confirmModal": {
+      "title": "Are you sure?",
+      "cancel": ["Do you really want to ", "Cancel ", "change parameters"],
+      "save": ["Do you really want to ", "Save change parameters"],
+      "chooseAction": "Please save or cancel your changes"
+    }
+  },
+  "navigationBar": {
+    "home": "Home",
+    "pspManagement": "PSP Management",
+    "merchantsSettings": "Merchants Settings",
+    "trafficManagement": "Traffic Management",
+    "settings": "Settings"
+  },
+  "dictionaries": {
+    "transactionType": {
+      "ALL": "All",
+      "PURCHASE": "Deposit",
+      "PAYOUT": "Withdrawal",
+      "REFUND": "Refund"
+    },
+    "transactionTypes": {
+      "PURCHASE": "Deposit",
+      "PAYOUT": "Withdrawal"
+    },
+    "finalTransactionState": {
+      "CANCELLED": "Cancelled",
+      "COMPLETED": "Completed",
+      "DECLINED": "Declined"
+    },
+    "transactionState": {
+      "AUTHORIZED": "Authorized",
+      "CANCELLED": "Cancelled",
+      "COMPLETED": "Completed",
+      "CREATED": "Created",
+      "DECLINED": "Declined",
+      "DECLINE": "Declined",
+      "ERROR": "Error",
+      "INVALID" : "Invalid",
+      "IN_PROGRESS": "In progress",
+      "ON_HOLD": "On hold",
+      "PARTIALLY_REFUNDED": "Partially refunded",
+      "PENDING" : "Pending",
+      "PENDING_AND_SEND_WEBHOOK": "Pending and send webhook",
+      "PENDING_CONFIRMATION_REQUIRED": "Pending confirmation required",
+      "PENDING_INPUT_REQUIRED": "Pending input required",
+      "RECONCILIATION_REQUIRED": "Reconciliation required",
+      "REFUNDED": "Refunded",
+      "REFUND_REQUIRED": "Refund required",
+      "THREEDS_ENROLLED": "Threeds enrolled",
+      "THREEDS_PASSED": "Threeds passed",
+      "TIMEOUT": "Timeout",
+      "VOIDED": "Voided",
+      "WAITING_FOR_WEBHOOK": "Waiting fro webhook"
+    },
+    "limitType": {
+      "AMOUNT":  "Amount",
+      "COUNT": "Count"
+    },
+    "limitTransactionStatus": {
+      "ANY": "Any",
+      "DECLINE": "Decline",
+      "SUCCESS": "Success"
+    },
+    "operationState": {
+      "COMPLETED": "Completed",
+      "CONFLICT": "Conflict",
+      "ERROR": "Error",
+      "IN_PROGRESS": "In Progress"
+    },
+    "limitPeriodType": {
+      "DAY": "Day",
+      "HOUR": "Hour",
+      "MONTH": "Month",
+      "WEEK": "Week"
+    },
+    "operations": {
+      "eq": "equals",
+      "ne": "not equals",
+      "in": "in",
+      "ni": "not in",
+      "lt": "less than",
+      "le": "less than or equals to",
+      "gt": "greater than",
+      "ge": "greater than or equal to",
+      "bw": "between",
+      "nb": "not between"
+    },
+    "cardBrand": {
+      "americanExpress": "American Express",
+      "chinaUnionPay": "UnionPay",
+      "diners": "Diners Club",
+      "discovery": "Discovery",
+      "jcb": "JCB",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "mir": "MIR",
+      "rupay": "RuPay",
+      "visa": "Visa",
+
+      "AMEX": "American Express",
+      "CUP": "UnionPay",
+      "DINERS": "Diners Club",
+      "DISCOVER": "Discover",
+      "JCB": "JCB",
+      "MAESTRO": "Maestro",
+      "MASTERCARD": "Mastercard",
+      "MIR": "MIR",
+      "RUPAY": "RuPay",
+      "VISA": "Visa",
+      "UNKNOWN": "Unknown"
+    }
+  },
+  "modals": {
+    "close": "Close",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "notifications": {
+    "loadingTitle": "Loading...",
+    "errorTitle": "Error",
+    "successTitle": "Success",
+    "warningTitle": "Warning",
+
+    "requestFailed": "Seems like something wrong with request. Try again later",
+    "longResponse": "Looks like the server is taking to long to respond, please try again",
+    "errorMessage": "Some error occurred. Please, try again",
+    "invalidData": "Please, input a valid data"
+  },
+  "error": {
+    "validation":{
+      "toManySymbols": "Too many symbols",
+      "mustBeUnique": "Customer ID must be unique for the terminal",
+      "mustBeAlphabetical": "The field must be without  specific symbols, numbers",
+      "mustNotBeEmpty": "Please fill out this field",
+      "invalidFormat": "Invalid format",
+      "mustBeLessThanCurrent": "Date of Birth must be without a future date",
+      "phoneCodeErrorMessage": "Phone Country Code must be with + and numbers",
+      "mustBePositiveInteger": "Must be more than 0 and integer",
+      "mustBeNumeric": "Must be numeric",
+      "mustNotContainSpecificSymbol": "The field must be without specific symbols, only -",
+      "amountOutOfRange": "The value must be a number greater than 0 and equals or less than 10 000 000",
+      "paymentMethodOperationCurrencyCountryUnique": "Merchant, Payment Method, Operation, Currency and Country must be unique",
+      "NotValidRange": "XR Adjustment, % is not between the valid range of -99 and 100.",
+      "mustContainNumbersSeparatedByColon": "The field must contain a list of numbers separated by colons",
+      "mustBeIntegerInRange": "The value must be an integer between 1 and 100",
+      "mustBeLessThanMs": "The value must be  integer and less than 8 760 h or 525 600 min",
+      "mustBeCommaEmail": "Email address is invalid: the field must contain comma delimited list of valid emails",
+      "mustBeUniqueForMerchant": "Must be unique for this Merchant",
+      "organizationMerchantUnique": "Organizations and Merchants must be unique",
+      "paymentMethodOperationCurrencyUnique": "Payment Method, Currency and Operation must be unique",
+      "amountDot": "Must be a valid length after the dot for this currency",
+      "notZero": "Сan't be 0",
+      "manyMb": "The size should not exceed 3 MB"
+    }
+  },
+  "authentication": {
+    "signIn": {
+      "title": "Sign In",
+      "login": "Login",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "signInButton": "Sign In",
+      "incorrectCredentials": "Login or password is incorrect"
+    },
+    "forgotPassword": {
+      "emailStep" : {
+        "title": "Forgot password?",
+        "emailLabel": "Email",
+        "emailText": "Please enter the address associated with your account.",
+        "checkEmail": "Check your email",
+        "resetInstructions": "We've sent password reset instructions to your email",
+        "sendButton": "Send",
+        "backButton": "Back"
+      },
+      "setPassword": {
+        "changeTitle": "Change password",
+        "setPasswordTitle": "Set password",
+        "newPassword": "New Password",
+        "password": "Password",
+        "confirmNewPassword": "Confirm New Password",
+        "confirmPassword": "Confirm Password",
+        "validation": {
+          "minCharacters": "Password have to be at least 8 characters",
+          "maxCharacters": "Password have to be less than 256 characters",
+          "specialSymbol": "Password must contain at least one special character",
+          "oneDigit": "Password must include one digit",
+          "upperCaseCharacter": "Password must include uppercase letter",
+          "lowerCaseCharacter": "Password must include lowercase letter",
+          "passwordsMatch": "Passwords must match"
+        },
+        "passwordSet": "The password was set",
+        "passwordChanged": "The password was changed",
+        "sendButton": "Confirm"
+      }
+    }
+  },
+  "logout": {
+    "title": "Logout",
+    "message": "Would you like to logout?"
+  },
+  "somethingWrong": {
+    "title": "Something went wrong...",
+    "subtitle": "Please try again or contact the support",
+    "button": "Refresh page"
+  },
+  "permissionDenied": {
+    "title": "Permission denied",
+    "subtitle": "You don't have permission to access"
+  },
+  "maintenance": {
+    "title": "This page is under construction.",
+    "subtitle": "We are working on fixing the problem. Please try again.",
+    "button": "Refresh page"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "Sorry, we couldn't find the page you were looking for. We suggest that you return to main page"
+  },
+  "accessForbidden": {
+    "title": "Access Forbidden",
+    "subtitle": "Please check with Support Team.",
+    "refreshButton": "Refresh",
+    "backButton": "Back to Sign in"
+  },
+  "transactions": {
+    "title": "Transactions",
+    "columns": {
+      "id": "ID",
+      "type": "Type",
+      "paymentMethod": "Payment Method",
+      "paymentIdentifier": "Payment Identifier",
+      "customerAccessToken": "Access Token",
+      "tokenPresence": "Token Presence",
+      "state": "Status",
+      "amount": "Amount",
+      "currency": "Currency",
+      "psp": "PSP",
+      "merchantTerminalName": "Merchant",
+      "merchantCustomerId": "Client ID",
+      "externalId": "External ID",
+      "created": "Created Date",
+      "merchantName": "Organisation",
+      "legalEntity": "Legal Entity",
+      "clientAccountId": "Account ID",
+      "baseCurrencyAmount": "Amt in Base CCY",
+      "bankName": "PSP",
+      "bankResultCode": "PSP Result Code",
+      "bankTerminal": "PSP Terminal",
+      "bankTID": "PSP TID",
+      "baseCurrency": "Base CCY",
+      "binCountry": "BIN Country",
+      "binCountryCode": "BIN Country Code",
+      "cardBrand": "Card Network",
+      "cascadingSchemaName": "Cascading Schema",
+      "cryptoAmount": "Crypto Amount",
+      "cryptoCurrency": "Crypto Currency",
+      "currencyRate": "Currency Rate",
+      "customerCountry": "Client Country",
+      "customerIp": "Client IP",
+      "customerPersonalId": "Client Personal ID",
+      "depositType": "Deposit Type",
+      "merchantTransactionId": "Merchant TID",
+      "moto": "MO/TO",
+      "mt4Id": "MT4 ID",
+      "original": "Original",
+      "providerAmount": "Provider Amount",
+      "providerCurrency": "Provider CCY",
+      "refTransactionId": "Ref Transaction ID",
+      "refundedAmount": "Refunded Amount",
+      "resultCode": "Result Code",
+      "routingRulesetName": "Routing Ruleset",
+      "routingSchemaName": "Routing Schema",
+      "transactionCountry": "Transaction Country",
+      "updated": "Updated",
+      "userIp": "User IP",
+      "userName": "User Name"
+    },
+    "status": {
+      "completed": "Completed",
+      "declined": "Declined",
+      "pending": "Pending",
+      "error": "Error"
+    }
+  },
+  "transaction": {
+    "title": "Transaction",
+    "baseDetails": {
+      "title": "Base details",
+      "created": "Created",
+      "updated": "Updated",
+      "id": "ID transaction",
+      "merchant": "Merchant",
+      "referenceId": "Reference ID",
+      "currency": "Currency",
+      "status": "Status",
+      "resolution": "Resolution",
+      "description": "Description",
+      "source": "Source",
+      "initialAmount": "Initial Amount",
+      "initialCurrency": "Initial Currency",
+      "processedAmount": "Processed Amount",
+      "processedCurrency": "Processed Currency",
+      "fee": "Fee",
+      "executionId": "Bank TID",
+      "merchantTransactionId": "Merchant TID",
+      "resultCode": "Result Code"
+    },
+    "customerDetails": {
+      "title": "Client",
+      "name": "Name",
+      "birth": "Date of Birth",
+      "phone": "Phone",
+      "email": "Email",
+      "country": "Client Country",
+      "state": "State",
+      "city": "City",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "postalCode": "Postal Code",
+      "accountId": "Account ID",
+      "registrationDate": "Registration Date",
+      "ipAddress": "IP Address",
+      "userAgent": "User Agent",
+      "locale": "Locale",
+      "customerAccessToken": "Client Access Token",
+      "merchantCustomerId": "Client ID"
+    },
+    "cardDetails": {
+      "title": "Card Info",
+      "pan": "PAN",
+      "cardholder": "Cardholder",
+      "cardBrand": "Card Network",
+      "expiryAt": "Expiry Date",
+      "countryCode": "BIN Country Code",
+      "countryName": "BIN Country Name"
+    },
+    "operationHistory": {
+      "title": "Operation History",
+      "columns": {
+        "id": "ID",
+        "created": "Created Date",
+        "operationType": "Operation Type",
+        "operationState": "Operation State",
+        "transactionState": "Transaction State",
+        "description": "Description",
+        "resultCode": "Result Code",
+        "bankMessage": "Bank Message",
+        "executionTime": "Execution Time"
+      }
+    },
+    "webhooks": {
+      "title": "Webhooks",
+      "columns": {
+        "id": "ID",
+        "url": "Url",
+        "startDate": "Start Date",
+        "runCount": "Run Count",
+        "lastStartDate": "Last Start Date",
+        "nextRunDate": "Next Run Date",
+        "lastResponseCode": "Last Response Code",
+        "lastResponseBody": "Last Response Body"
+      }
+    },
+    "editModal": {
+      "title": "Edit Transaction",
+      "status": "Status",
+      "description": "Description",
+      "resultCode": "Result Code",
+      "merchantTid": "Merchant TID",
+      "bankTid": "Bank TID",
+      "customerId": "Client ID",
+      "sendWebhook": "Send Webhook"
+    },
+    "notifications": {
+      "edit": {
+        "loading": "Updating the transaction state",
+        "error": "Failed to update the transaction state",
+        "success": "The transaction state was updated"
+      }
+    }
+  },
+
+  "users": {
+    "title": "Users",
+    "user": "User",
+    "columns": {
+      "login": "Email",
+      "enabled": "Status",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phoneNumber": "Phone",
+      "phoneCountryCode": "Phone Country Code",
+      "role": "Role",
+      "organization": "Organization",
+      "merchantTerminalName": "Merchant",
+      "created": "Created Date",
+      "actions": "Actions"
+    },
+    "create": {
+      "title": "Create a User"
+    },
+    "edit": {
+      "title": "Edit User"
+    },
+    "form": {
+      "personalInfo": "Personal Info",
+      "merchants": "Merchants",
+      "selectMerchants": "Select Merchants",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "login": "Email",
+      "phone": "Phone (optional)",
+      "countryCode": "Country",
+      "status": "Status",
+      "fullAccess": "Full Access",
+      "role": "Role",
+      "roleSelect": "Select roles",
+      "rolesModal": {
+        "roles": "Roles",
+        "addRole": "Add Role",
+        "selectRole": "Select a role"
+      }
+    },
+    "notifications": {
+      "create": {
+        "loading": "Creating the user",
+        "error": "Failed to create the user",
+        "success": "The user was created"
+      },
+      "update": {
+        "loading": "Updating the user data",
+        "error": "Failed to update the user",
+        "success": "The user was updated"
+      }
+    }
+  },
+  "user": {
+    "title": "User",
+    "settings": {
+      "title": "User Settings",
+      "properties": {
+        "status": "Status",
+        "login": "Email",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phone": "Phone",
+        "createdTime": "Created",
+        "fullAccess": "Full Access"
+      }
+    },
+    "role": "Roles",
+    "organization": "Organizations",
+    "merchant": "Merchants"
+  },
+  "clients": {
+    "title": "Clients",
+    "columns": {
+      "merchantCustomerId": "Client ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "merchantTerminalName": "Merchant",
+      "merchantTerminalId": "Merchant ID",
+      "email": "Email",
+      "countryCode": "Country",
+      "firstTimeDepositDate": "FTD Date",
+      "city": "City",
+      "registrationDate": "Created Date"
+    }
+  },
+  "psp": {
+    "title": "PSP",
+    "subTitle": "PSP Details",
+    "infoBlock": {
+      "generalInfo": "General Info",
+      "referralAgreement": "Referral Agreement",
+      "adapterCodeHash": "Adapter Code Hash",
+      "parameters": "Parameters"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Name",
+      "adapterCode": "Adapter Code",
+      "paymentMethod": "Payment Method",
+      "email": "Emails",
+      "operation": "Transaction Type",
+      "isPartner": "Is Partner",
+      "enabled": "Enabled",
+      "refPercent": "Ref %",
+      "fx": "FX",
+      "gambling": "Gambling",
+      "cryptoExchange": "Crypto-exchange",
+      "notes": "Notes",
+      "countryCodes": "Geo Countries",
+      "countryGroups": "Geo Country Groups",
+      "pciDssCompliant": "PCI DSS Compliant",
+      "pciDssExpirationDate": "PCI DSS Expiration Date",
+      "dataType": "Data Type",
+      "value": "Value",
+      "visibility": "Visibility",
+      "parameterId": "Parameter ID"
+    },
+    "visibilityParameters": {
+      "bankTerminal": "Bank Terminal",
+      "terminalLink": "Terminal Link"
+    }
+  },
+  "terminals": {
+    "title": "Terminals",
+    "paramTitle": "Terminal's parameters",
+    "columns": {
+      "id": "ID",
+      "name": "Terminal",
+      "bankName": "PSP",
+      "settlementType": "Settlement Type",
+      "actions": "Actions"
+    }
+  },
+  "terminal": {
+    "title": "Terminal",
+    "generalInfo": {
+      "title": "Terminal Settings",
+      "id": "ID",
+      "name": "Name",
+      "bankName": "PSP",
+      "settlementType" : "Settlement Type"
+    },
+    "parameters": {
+      "title": "Parameters",
+      "columns": {
+        "id": "ID",
+        "name": "Name",
+        "value": "Value",
+        "type": "Data Type"
+      }
+    }
+  },
+  "terminalsLinks": {
+    "title": "Terminals Links",
+    "columns": {
+      "id": "ID",
+      "merchantTerminal": {
+        "name": "Merchant",
+        "merchant": {
+          "name": "Organization"
+        }
+      },
+      "bankTerminal": {
+        "name": "PSP Terminal",
+        "bank": {
+          "name": "PSP",
+          "paymentMethod": "Payment Method"
+        }
+      },
+      "description": "Terminal Link",
+      "enabled": "Enabled",
+      "webhooksEnabled": "Webhooks",
+      "motoEnabled": "MOTO",
+      "exitIFrame": "Exit iFrame",
+      "recurringEnabled": "Recurring",
+      "trusted": "Trusted",
+      "limitsEnabled": "Terminal Limits",
+      "historyOfChanges": "History of Changes"
+    },
+    "groupEdit": {
+      "enableAll": "Enable All",
+      "confirmModal": {
+        "cancel": ["Do you really want to ", "Cancel ", "change parameters"],
+        "save": ["Do you really want to ", "Save  change parameters"],
+        "chooseAction": "Please save or cancel your changes"
+      },
+      "notifications": {
+        "error": "Can't save a settings for a terminals links group",
+        "success": "Settings were saved"
+      }
+    }
+  },
+  "terminalLink": {
+    "title": "Terminal Link",
+    "settings": {
+      "title": "Terminal Link Settings",
+      "properties": {
+        "id": "ID",
+        "bankName": "PSP",
+        "paymentMethod": "Payment Method",
+        "merchantName": "Organization",
+        "bankTerminalName": "Terminal",
+        "recurringEnabled": "Recurring Enabled",
+        "enabled": "Enabled",
+        "trusted": "Trusted",
+        "exitIFrame": "Exit iFrame",
+        "webhooksEnabled": "Webhooks Enabled",
+        "motoEnabled": "Moto Enabled",
+        "merchantTerminalName": "Merchant Terminal name",
+        "limitsEnabled": "Terminal Limits",
+        "description": "Description"
+      }
+    },
+    "parameters": {
+      "title": "Parameters",
+      "addParameter": "Add Parameter",
+      "columns": {
+        "id": "ID",
+        "dataType": "Data Type",
+        "name": "Name",
+        "value": "Value"
+      }
+    },
+    "limits": {
+      "title": "Limits",
+      "addLimit": "Add Limit",
+      "columns": {
+        "id": "ID",
+        "terminalLinkGroupName": "Group Name",
+        "enabled": "Enabled",
+        "amount": "Amount",
+        "count": "Count",
+        "uniqueInstrument": "Unique Instrument",
+        "limitType": "Limit Type",
+        "currency": "Currency",
+        "transactionStatus": "Transaction Status",
+        "periodType": "Period Type",
+        "lastUpdated": "Last Update"
+      }
+    },
+    "create": "Create Terminal Link",
+    "edit": "Edit General Settings",
+    "form": {
+      "sections": {
+        "general": "General",
+        "feature": "Feature"
+      },
+      "fields": {
+        "merchantId": "Organisation",
+        "merchantTerminalId": "Merchant",
+        "bankId": "PSP",
+        "bankTerminalId": "PSP Terminal",
+        "description": "Description",
+        "enabled": "Terminal Link Enabled",
+        "threeDSEnabled": "3DS",
+        "webhooksEnabled": "Webhooks",
+        "recurringEnabled": "Recurring",
+        "trusted": "Trusted",
+        "limitsEnabled": "Terminal Limits",
+        "exitFrame": "Exit iFrame",
+        "motoEnabled": "MOTO"
+      },
+      "notifications": {
+        "create": {
+          "loading": "Creating the terminal link",
+          "error": "Failed to create the terminal link",
+          "success": "The terminal link was created"
+        },
+        "edit": {
+          "loading": "Updating the terminal link",
+          "error": "Failed to update the terminal link",
+          "success": "The terminal link was updated"
+        }
+      }
+    }
+  },
+  "terminalLinksLimits": {
+    "title": "Terminal Links Limits",
+    "columns": {
+      "id": "ID",
+      "enabled": "Enabled",
+      "uniqueInstrument": "Unique Instrument",
+      "limitType": "Limit Type",
+      "cardBrand": "Card Network",
+      "amount": "Amount",
+      "count": "Count",
+      "currency": "Currency",
+      "transactionStatus": "Transaction Status",
+      "periodType": "Period Type",
+      "lastUpdated": "Last Update",
+      "merchantName": "Organization",
+      "merchantId": "Organization ID",
+      "merchantTerminalName": "Merchant",
+      "merchantTerminalId": "Merchant ID",
+      "description": "Terminal link",
+      "terminalLinkId": "Terminal link ID",
+      "bankName": "PSP",
+      "bankId": "PSP ID",
+      "paymentMethod": "Payment Method"
+    }
+  },
+  "terminalLinksParameters": {
+    "title": "Terminal Links Parameters",
+    "columns": {
+      "merchantName": "Organization",
+      "merchantId": "Merchant ID ",
+      "merchantTerminalName": "Merchant",
+      "merchantTerminalId": "Merchant Terminal ID",
+      "terminalLinkDescription": "Terminal link",
+      "terminalLinkId": "Terminal Link ID",
+      "bankName": "PSP",
+      "bankId": "Bank ID",
+      "paymentMethod": "Payment Method",
+      "paramId": "Parameter ID",
+      "name": "Key",
+      "value": "Value",
+      "level": "Level",
+      "editable": "Editable"
+    }
+  },
+  "terminalLinksGroups": {
+    "title": "Terminal Links Groups List",
+    "columns": {
+      "merchant": {
+        "id": "Merchant ID",
+        "name": "Organization"
+      },
+      "id": "Group Limits ID",
+      "name": "Group Limits Name",
+      "limitsCount": "Limits Count",
+      "terminalLinksCount": "Terminal Links Count",
+      "enabled": "Enabled"
+    }
+  },
+  "terminalLinkGroup": {
+    "title": "Terminal Link Group",
+    "generalInfo": {
+      "title": "Terminal Link Settings",
+      "id": "ID",
+      "name": "Name",
+      "limitsCount": "Limits Count",
+      "terminalLinksCount": "Terminal Links Count",
+      "enabled" : "Enabled"
+    },
+    "limits": {
+      "title": "Limits",
+      "columns": {
+        "id": "ID",
+        "uniqueInstrument": "Unique Instrument",
+        "limitType": "Limit Type",
+        "cardBrand": "Card Network",
+        "amount": "Amount",
+        "count": "Count",
+        "currency": "Currency",
+        "transactionStatus": "Transaction Status",
+        "periodType": "Period Type",
+        "lastUpdated": "Last Updated",
+        "enabled": "Enabled"
+      }
+    }
+  },
+  "routingRuleset": {
+    "title": "Routing Ruleset",
+    "create": "Create Ruleset",
+    "columns": {
+      "id": "ID",
+      "name" : "Ruleset",
+      "merchantName": "Organisation",
+      "merchantTerminalName": "Merchant",
+      "cashierPaymentMethodName": "Cashier Payment Method",
+      "terminalLinkDescription": "PSP",
+      "priority": "Priority",
+      "ratio": "Ratio",
+      "enabled": "Status",
+      "transactionType": "Transaction Type",
+      "amount": "Amount",
+      "customerDpCount": "DP Count",
+      "txCcy": "TX CCY",
+      "txAmount": "TX Amount",
+      "customerCountry": "Customer Country",
+      "customerCountryGR": "Customer Country GR",
+      "binRange": "BIN Range",
+      "binCountry": "BIN Country",
+      "cardNetwork": "Card Network",
+      "paymentProviderCurrency": "Payment Provider CCY",
+      "useCurrencyConversion": "Use CCY Conversion",
+      "schedule": "Schedule",
+      "paymentMethod": "Payment Method",
+      "equals": "(Equals)",
+      "notEquals": "(Not equals)",
+      "unlimited": "Unlimited",
+      "metadata": "Metadata",
+      "routingSchemaName": "Routing Scheme",
+      "activeRoutingSchema": "Active RS",
+      "excludedFromCascading": "Excluded from cascading",
+      "customerIp": "Client IP",
+      "binCountryGroup": "BIN Country Group",
+      "billingInfo": "Billing info",
+      "failRecoveryPeriod": "Fail Recovery Period",
+      "processedRetryCount": "Proccessed Retry Count",
+      "processedRecoveryPeriod": "Proccessed Recovery Period",
+      "customerCcDpAmount": "CC DP Amount",
+      "customerCcDpCount": "CC DP Count",
+      "customerCcWdAmount": "CC WD Amount",
+      "customerCcWdCount": "CC WD Count",
+      "customerUccDpAmount": "Unique CC DP Amount",
+      "customerUccDpCount": "Unique CC DP Count",
+      "customerUccWdAmount": "Unique CC WD Amount",
+      "customerUccWdCount": "Unique CC WD Count",
+      "customerDpAmount": "DP Amount",
+      "customerWdCount": "WD Count",
+      "customerWdAmount": "WD Amount",
+      "cashierPaymentMethodCode": "Cashier Payment Method CODE",
+      "exchangeRateAdjustment": "Exchange Rate Adjustment, %",
+      "customerDaysFromReg": "Min Days from Registration",
+      "customerRegBeforeDate": "Registered before",
+      "customerDaysFromFtd": "Min Days from FTD",
+      "timerEnabled": "Timer Enabled",
+      "failRetryCount": "Fail Retry Count",
+      "paymentProvider": "Payment provider"
+    },
+    "metadataKeys": {
+      "exist": "Key exists",
+      "matches": "Key matches",
+      "notExist": "Key doesn't exist"
+    },
+    "groupEdit": {
+      "groups": {
+        "general": "General",
+        "transaction": "Transaction",
+        "bin": "BIN",
+        "clients": "Clients",
+        "customerStats": "Customer Stats"
+      },
+      "notifications": {
+        "error": "Can't save a settings for a routing rulesets group",
+        "success": "Settings were saved"
+      }
+    },
+    "form": {
+      "sections": {
+        "newRoutingRuleset": "New Routing Ruleset",
+        "mainOperations": "Ruleset Main Options",
+        "transaction": "Transaction",
+        "clients": "Clients",
+        "bin": "BIN",
+        "schedule": "Schedule",
+        "customerStats": "Customer Stats",
+        "timer": "Timer"
+      },
+      "fields": {
+        "value": "Value",
+        "country": "Country",
+        "countryGroup": "Country group",
+
+        "organization": "Organization",
+        "merchant": "Merchant",
+        "routingScheme": "Routing Scheme",
+        "enabled": "Enabled",
+
+        "paymentMethod": "Payment Method",
+        "cashierPM": "Cashier PM",
+        "priority": "Priority",
+        "paymentProvider": "Payment Provider",
+        "paymentProviderCcy": "Payment Provider CCY",
+        "ratio": "Ratio",
+        "useCcyConvertation": "Use CCY Convertation",
+        "xrAdjustment": "XR Adjustment, %",
+        "exchangeConfirmation": "Exchange Confirmation",
+
+        "transactionType": "Transaction Type",
+        "processingCcy": "Processing CCY",
+        "amountInEur": "Amount in EUR",
+        "amountFromEur": "Amount from, EUR",
+        "amountToEur": "Amount to, EUR",
+        "pspAmount": "PSP Amount",
+
+        "amount": "Amount",
+        "metadata": "Metadata",
+        "key": "Example: key1:value1,key2:value2,key3:value3",
+        "excludedFromCascading": "Excluded from cascading",
+
+        "filterByRegisteredCountry": "Filter by Registered Country",
+        "filterByRegisteredCountryGroup": "Filter by Registered Country Group",
+        "filterByClientIp": "Filter by Client IP",
+        "minimumDaysFromRegistration": "Minimum Days from Registration",
+        "registeredBefore": "Registered before",
+        "minimumDaysFromFtd": "Minimum Days from FTD",
+
+        "range": "Range",
+        "filterByCountry": "Filter by Country",
+        "filterByCountryGroup": "Filter by Country Group",
+        "billingInfo": "Billing Info",
+
+        "schedule": "Enable Schedule",
+        "dayFrom": "Day from",
+        "dayTo": "Day to",
+        "timeFrom": "Time from",
+        "timeTo": "Time to",
+        "dayOfWeek": "Day of week",
+
+        "dpCount": "DP Count",
+        "dpAmount": "DP Amount",
+        "wdCount": "WD Count",
+        "wdAmount": "WD Amount",
+        "ccDpCount": "CC DP Count",
+        "ccDpAmount": "CC DP Amount",
+        "ccWdCount": "CC WD Count",
+        "ccWdAmount": "CC WD Amount",
+        "uccDpCount": "Unique CC DP Count",
+        "uccDpAmount": "Unique CC DP Amount",
+        "uccWdCount": "Unique CC WD Count",
+        "uccWdAmount": "Unique CC WD Amount",
+
+        "enableTimer": "Enable Timer",
+        "failedAttempts": "Failed Attempts",
+        "retryCount": "Retry Count",
+        "setRecoveryPeriod": "Set Recovery Period",
+        "processedAttempts": "Processed Attempts",
+        "unlimitedProcessedAttempts": "Unlimited Processed Attempts",
+        "validityPeriod": "Validity Period"
+      },
+      "addWeekday": "Add weekday",
+      "timeHint": "*Time must be specified in UTC time zone",
+      "unnamed": "Unnamed",
+      "name": "Rule name",
+      "back": "Back to Routing Rules",
+      "notifications": {
+        "create": {
+          "loading": "Creating the routing ruleset",
+          "error": "Failed to create the routing ruleset",
+          "success": "The routing ruleset was created"
+        },
+        "edit": {
+          "loading": "Editing the routing ruleset",
+          "error": "Failed to edit the routing ruleset",
+          "success": "The routing ruleset was edited"
+        }
+      }
+  }
+  },
+  "client": {
+    "title": "Client",
+    "generalInfo": {
+      "title": "General info",
+      "email": "Email",
+      "phone": "Phone",
+      "merchantTerminalName": "Merchant",
+      "fullName": "Full Name",
+      "registrationDate": "Registration Date",
+      "country": "Country",
+      "postalCode": "Postal Code",
+      "city": "City",
+      "state": "State",
+      "terminalLinkDescription": "Terminal link",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "dateOfBirth": "Date of Birth"
+    },
+    "stats": {
+      "title": "Client Stats",
+      "firstTimeDeposit": "FTD Date",
+      "withdrawAmount": "Withdrawn",
+      "withdrawCount": "Withdrawals",
+      "depositCount": "Deposits",
+      "depositAmount": "Deposited",
+      "depositAverageAmount": "DP ATV",
+      "successDepositPercentage": "Auth Rate",
+      "withdrawAverageAmount": "WD ATV",
+      "firstDepositTry": "First Deposit Try",
+      "firstTimeDepositId": "FTD TX"
+    },
+    "topErrors": {
+      "title": "Top Errors",
+      "columns": {
+        "errorCode": "Top Errors"
+      }
+    },
+    "paymentMethod": {
+      "title": "Payment Method",
+      "columns": {
+        "methodName": "Method",
+        "bankName": "PSP",
+        "depositAmount": "DP",
+        "depositCount": "DP#",
+        "authRate": "Auth Rate"
+      }
+    },
+    "transactions": {
+      "title": "Transactions"
+    },
+    "form": {
+      "profile": "Profile",
+      "titleCreate": "Create Client Profile",
+      "titleEdit": "Edit Client Profile",
+      "sections": {
+        "general": "General",
+        "clientInfo": "Client Info",
+        "additional": "Additional"
+      },
+      "fields": {
+        "merchantTerminalId": "Merchant",
+        "merchantCustomerId": "Client ID",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "dateOfBirth": "Date of Birth",
+        "countryCode": "Country",
+        "city": "City",
+        "state": "State",
+        "addressLine1": "Address Line 1",
+        "addressLine2": "Address Line 2",
+        "phoneCode": "Country",
+        "phone": "Phone",
+        "postCode": "Postal Code",
+        "terminalLinkId": "Forced Terminal Link",
+        "registrationDate": "Registration Date"
+      },
+      "notifications": {
+        "create": {
+          "loading": "Creating the client",
+          "error": "Failed to create the client",
+          "success": "The client was created"
+        },
+        "edit": {
+          "loading": "Editing the client",
+          "error": "Failed to edit the client",
+          "success": "The client was edited"
+        },
+        "confirmation": {
+          "title": "Attention!",
+          "message": "After accepting the settings this client can use only Forced Terminal Link payment settings. Routing and Cascading schemes will not use"
+        }
+      }
+    }
+  },
+  "merchants":{
+    "title": "Merchants",
+    "columns": {
+      "id": "ID",
+      "name": "Terminal Name",
+      "email": "Emails",
+      "shopUrl": "Shop URL",
+      "merchantId": "Organization ID",
+      "merchantName": "Organization",
+      "legalEntityId": "Legal Entity ID",
+      "legalEntityName": "Legal Entity",
+      "platform": "Platform",
+      "apiAccessMode": "API Access Mode",
+      "created": "Created",
+      "enableCashier": "Enable Cashier",
+      "enableCascading": "Enable Failover",
+      "useRoutingPriority": "Use Routing Priority",
+      "useCardToken": "Use Card Token",
+      "preMemorisedRouting": "Pre-memorized routing",
+      "actions": "Actions"
+    }
+  },
+  "merchant": {
+    "title": "Merchant",
+    "stylization": "Stylization",
+    "generalInfo": {
+      "title": "Merchant Info",
+      "id": "Terminal ID",
+      "description": "Description",
+      "apiAccessMode": "API Access Mode",
+      "shopUrl": "Shop URL",
+      "webhookUrl": "Webhook URL",
+      "shopTitle": "Shop Title",
+      "merchantName": "Organization",
+      "legalEntityName": "Legal Entity name"
+    },
+    "paymentStatusUrl": {
+      "title": "Payment Status URL",
+      "returnSuccessUrl": "Return Success URL",
+      "returnFailureUrl": "Return Failure URL",
+      "returnCancelUrl": "Return Cancel URL",
+      "returnHoldUrl": "Return Hold URL",
+      "returnPayoutFailureUrl": "Return Payout Failure URL",
+      "returnFromCashierUrl": "Return from Cashier URL",
+      "returnInProgressUrl": "Return In Progress URL"
+    },
+    "features": {
+      "title": "Traffic Management Features",
+      "enableCashier": "Enable Cashier",
+      "enableFailover": "Enable Failover",
+      "preMemorisedRouting": "Pre-memorized routing",
+      "repeatWebhooks": "Repeat Webhooks on Error",
+      "useRoutingPriority": "Use Routing Priority",
+      "useStatsForRouting": "Use Client Stats for Routing",
+      "useCardToken": "Use Card Token"
+    },
+    "webhooks": {
+      "title": "Send Webhooks for Events",
+      "paymentCreated": "Payment Created",
+      "paymentProcessingCompleted": "Payment Processing Completed",
+      "refundProcessingCompleted": "Refund Processing Completed",
+      "payoutProcessingCompleted": "Payout Processing Completed",
+      "paymentRefunded": "Payment Refunded",
+      "inProgressTimeout": "In Progress Timeout (sec)"
+    },
+    "paymentRequiredFields": {
+      "title": "Payment Page Required Fields",
+      "clientEmail": "Client Email",
+      "clientFirstName": "Client First Name",
+      "clientLastName": "Client Last Name",
+      "clientPhone": "Client Phone",
+      "clientId": "Client Id",
+      "clientCountry": "Client Country",
+      "clientDateOfBirth": "Client Date of Birth",
+      "clientCity": "Client City",
+      "clientAddressLine1": "Client Address Line1",
+      "clientAddressLine2": "Client Address Line2",
+      "clientPostCode": "Client Post Code",
+      "billingAddress": "Billing Address"
+    }
+  },
+  "cashierSettings": {
+    "title": "Cashier Settings",
+    "columns": {
+      "merchantName": "Organization",
+      "merchantTerminalName": "Merchant",
+      "id": "ID",
+      "paymentMethod": "Payment Method",
+      "currency": "Currency",
+      "transactionType": "Transaction Type",
+      "minCommission": "Min. Commission",
+      "commission": "Commission",
+      "commissionConfirmation": "Commission Confirmation",
+      "predefinedAmounts": "Predefined Amounts",
+      "defaultAmount": "Default Amount",
+      "requiredFields": "Required Fields",
+      "requestCardPan": "Request Card PAN",
+      "requestAccountId": "Request Account ID",
+      "earlyRouting": "Early Routing"
+    },
+    "requiredFields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "dateOfBirth": "Date of Birth",
+      "gender": "Gender",
+      "email": "Email",
+      "phoneCountryCode": "Phone Country Code",
+      "phone": "Phone",
+      "countryCode": "Country Code",
+      "city": "City",
+      "address1": "Address1",
+      "postCode": "Post Code",
+      "state": "State",
+      "currency": "Currency",
+      "personalId": "Personal ID",
+      "address2": "Address2"
+    }
+  },
+  "cashierLimits": {
+    "title": "Cashier Limits",
+    "columns": {
+      "merchantName": "Organization",
+      "merchantTerminalName": "Merchant",
+      "paymentMethod": "Payment Method",
+      "operation": "Transaction Type",
+      "countryCode": "Country",
+      "currency": "Currency",
+      "minAmount": "Min Amount",
+      "maxAmount": "Max Amount",
+      "action": "Action"
+    },
+    "form": {
+      "titleCreate": "Create Limit",
+      "titleEdit": "Edit Limit",
+      "sections": {
+        "general": "General",
+        "transaction": "Transaction",
+        "payment": "Payment"
+      },
+      "fields": {
+        "merchant": "Merchant",
+        "paymentMethod": "Payment Method",
+        "operation": "Operation",
+        "minAmount": "Min Amount",
+        "maxAmount": "Max Amount",
+        "currency": "Currency",
+        "country": "Country"
+      },
+      "notifications": {
+        "create": {
+          "loading": "Creating the limit",
+          "error": "Failed to create the limit",
+          "success": "The limit was created"
+        },
+        "edit": {
+          "loading": "Editing the limit",
+          "error": "Failed to edit the limit",
+          "success": "The limit was edited"
+        }
+      }
+    },
+    "createButton": "Create Limit"
+  },
+  "manualTransaction": {
+    "title": "MO/TO",
+    "sections": {
+      "general": "General",
+      "transaction": "Transaction",
+      "merchantIds": "Merchant IDs",
+      "crmId": "CRM ID",
+      "clientInfo": "Client Info",
+      "billingAddress": "Billing Address"
+    },
+    "fields": {
+      "merchant": "Merchant",
+      "paymentMethod": "Payment Method",
+      "strategy": "Strategy",
+      "psp": "PSP",
+      "amount": "Amount",
+      "currency": "Currency",
+      "description": "Description",
+      "merchantTid": "Merchant TID",
+      "mt4Id": "MT4 ID",
+      "crmId": "CRM ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "dateOfBirth": "Date of Birth",
+      "email": "Email",
+      "phone": "Phone",
+      "phoneCode": "Country",
+      "registrationDate": "Registration Date",
+      "country": "Country",
+      "city": "City",
+      "state": "State",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "zip": "Zip",
+      "disabledOption": "Disabled"
+    },
+    "strategies": {
+      "direct": "Direct",
+      "useRouting": "Use Routing",
+      "useSystemRules": "Use System Rules"
+    },
+    "notifications": {
+     "create": {
+       "loading": "Creating the manual transaction",
+       "error": "Failed to create the manual transaction",
+       "success": "The manual transaction was created"
+     },
+      "rulesets": {
+        "loading": "Getting available PSPs for the transaction",
+        "error": "To get available PSPs, please, input a required data to form",
+        "success": "Choose a PSP from the list",
+        "warning": "There is no PSPs for this transaction data. Input another form data"
+      }
+    },
+    "modal": {
+      "title": "Success",
+      "message": "We have generated a link for you:",
+      "linkText": "Transaction Link"
+    }
+  },
+  "paymentMethods": {
+    "title": "Payment Methods",
+    "paymentMethod": "Payment Method",
+    "create": "Add Payment Method",
+    "paymentPreview": "Payment method image preview",
+    "form": {
+      "organization": "Organization",
+      "merchant": "Merchant",
+      "name": "Name",
+      "logo": "Logo",
+      "logoUpload": {
+        "click": "Click to upload",
+        "dragAndDrop": "or drag and drop",
+        "limitation": ".svg (max. 3 MB)",
+        "useDefaultLogo": "Use default logo",
+        "errors": {
+          "type": "Invalid type of the file",
+          "size": "File is larger than 3 MB",
+          "invalid": "The svg from the file is invalid. Please load another one"
+        }
+      },
+      "notifications": {
+        "create": {
+          "loading": "Creating the payment method",
+          "error": "Failed to create the payment method",
+          "success": "The payment method was created"
+        },
+        "edit": {
+          "loading": "Updating the payment method",
+          "error": "Failed to update the payment method",
+          "success": "The payment method was updated"
+        }
+      }
+    },
+    "columns": {
+      "merchantName": "Organization",
+      "merchantTerminalName": "Merchant",
+      "cashierPaymentMethodName": "Cashier PM name",
+      "logoData": "Logo",
+      "cashierPaymentMethodCode": "Payment Method ID"
+    }
+  },
+  "countryGroups": {
+    "title": "Country Groups",
+    "columns": {
+      "name": "Group Name",
+      "merchantName": "Organization",
+      "merchantTerminalName": "Merchant",
+      "countRulesetsUse": "Count rulesets use",
+      "countryCodes": "Country list"
+    }
+  },
+  "rolesAndPermissions": {
+    "title": "Roles & Permissions",
+    "columns": {
+      "role": "Role",
+      "permissions": "Permissions"
+    },
+    "role": {
+      "create": {
+        "title": "Create Role"
+      },
+      "form": {
+        "back": "Back to Roles",
+        "newRole": "New Role",
+        "roleName": "Role name",
+        "notifications": {
+          "create": {
+            "loading": "Creating the custom role",
+            "error": "Failed to create the custom role",
+            "success": "The role was created"
+          }
+        }
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "baseDetails": {
+      "title": "Base details",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "background": "Background"
+    },
+    "preview": {
+      "title": "Example",
+      "button": {
+        "base": "Enabled",
+        "hovered": "Hovered",
+        "pressed": "Pressed",
+        "focused": "Focused",
+        "disabled": "Disabled"
+      },
+      "text": "Text",
+      "label": "Label"
+    },
+    "notifications": {
+      "save": {
+        "loading": "Updating the theme",
+        "error": "Failed to update the theme",
+        "success": "The theme was updated"
+      }
+    }
+  },
+  "stylization": {
+    "title": "Stylization",
+    "create": "Create Theme",
+    "columns": {
+      "name": "Name",
+      "type": "Type",
+      "status": "Status",
+      "createdAt": "Created at",
+      "updatedAt": "Updated at",
+      "actions": "Actions"
+    },
+    "modals": {
+      "delete": {
+        "title": "Delete Theme",
+        "message": "Are you sure you want to delete theme?",
+        "activeMessage": "Removing the active theme cause applying the default theme. Are you sure to delete the active theme?",
+        "confirm": "Delete"
+      },
+      "apply": {
+        "title": "Apply Theme",
+        "message": "Assigning this theme will enable the current theme",
+        "confirm": "Apply"
+      }
+    },
+    "notifications": {
+      "create": {
+        "loading": "Creating the theme",
+        "error": "Failed to create the theme",
+        "success": "The theme was created"
+      },
+      "edit": {
+        "loading": "Updating the theme",
+        "error": "Failed to update the theme",
+        "success": "The theme was updated"
+      },
+      "activate": {
+        "loading": "Activating the theme",
+        "error": "Failed to change active theme",
+        "success": "Active theme was changed"
+      },
+      "delete": {
+        "loading": "Deleting the theme",
+        "error": "Failed to delete the theme",
+        "success": "The theme was deleted"
+      }
+    }
+  },
+  "themeEditor": {
+    "title": "Stylization",
+    "newTheme": "New Theme",
+    "editTheme": "Edit Theme",
+    "stylesStylization": "Styles",
+    "pagesStylization": "Pages",
+    "componentsStylization": "Components",
+    "preset": "Pre-set",
+    "colors": "Colors",
+    "color": "color",
+    "gradient": "Gradient",
+    "solid": "Solid",
+    "canvasBg": "Canvas background",
+    "creditCardBg": "Credit card background",
+    "typography": "Typography",
+    "pageFontFamily": "Page font family",
+    "fontFamily": "Font family",
+    "weight": "Weight",
+    "size": "Size",
+    "selectToEdit": "Select to edit properties",
+    "useTransparent": "Use transparent",
+    "themeName": "Theme Name",
+    "components": {
+      "pickers": {
+        "hueLabel": "Hue",
+        "saturationLabel": "Saturation",
+        "lightnessLabel": "Lightness",
+        "colorLabel": "Color"
+      }
+    },
+    "settingsHeader": {
+      "page": "Page",
+      "brandLogo": "Brand logo",
+      "viewMode": "Page view mode"
+    },
+    "paymentPages": {
+      "CASHIER":  "Payment Page",
+      "CREDIT_CARD":  "Credit Card Page",
+      "CRYPTO":  "Crypto Payment Page",
+      "ALTERNATIVE":  "Alternative Payment Method",
+      "SUCCESS_STATUS":  "Success Page",
+      "PENDING_STATUS":  "Pending Page",
+      "PREPARE": "Prepare Page",
+      "DECLINED_STATUS": "Declined Page",
+      "CANCELED_STATUS":  "Canceled Page",
+      "HOLD_STATUS":  "Hold Page",
+      "CONFIRMATION":  "Confirmation Page",
+      "CASCADING":  "Cascading Page"
+    }
+  }
+}
