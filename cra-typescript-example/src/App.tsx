@@ -40,6 +40,7 @@ import { MyUseSearchParams } from './LearnReact/React_Router/React-Router_Hooks/
 import { MyNestedRoutes } from './LearnReact/React_Router/Вложенные_роуты';
 import { MyUseMatch } from './LearnReact/React_Router/React-Router_Hooks/useMatch';
 import { MyUseMatchTask } from './LearnReact/React_Router/React-Router_Hooks/useMatch/task';
+import { MyRoute } from './LearnReact/React_Router/Предзагрузка_данных_через_Роутинг';
 
 
 function App() {
@@ -83,7 +84,7 @@ function App() {
       {/* <UseMyHookTask2 /> */}
       {/* <UseMyHookTask3 /> */}
 
-      {/* ⁡⁣⁣⁢React Router⁡ */}
+      {/* ⁡⁣⁣​‌‍‌⁡⁢⁣⁣React Router⁡​⁡ */}
       {/* <AppRoute /> */}
 
       {/* <MyOutlet /> */}
@@ -106,7 +107,10 @@ function App() {
       {/* <MyNestedRoutes /> */}
 
       {/* <MyUseMatch /> */}
-      <MyUseMatchTask />
+      {/* <MyUseMatchTask /> */}
+
+      {/* ⁡⁣⁣⁢Предзагрузка_данных_через_Роутинг⁡ */}
+      <MyRoute />
     </div>
   );
 }

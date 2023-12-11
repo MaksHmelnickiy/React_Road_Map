@@ -21,7 +21,7 @@ export const Breadcrumbs = ({pages}: IPages) => {
             textShadow: Number(id) === item.id ? '0 0' : 'none',
             textDecoration: Number(id) === item.id ? 'none' : 'underline',
           }} 
-          to={`${item.id}`} 
+          to={`${item.id}`}
           key={item.id}>
             {index + 1}
         </Link>
