@@ -6,7 +6,7 @@ import { blogLoader } from "./loaders/blogLoader"
 import { SingleBlog } from "./pages/SingleBlog"
 import { singleBlogLoader } from "./loaders/singleBlogLoader"
 
-const router = createBrowserRouter(createRoutesFromElements(
+const router = createBrowserRouter(createRoutesFromElements(// - ⁡⁢⁣⁣createRoutesFromElements⁡ — это помощник, создающий объекты маршрута из элементов ⁡⁣⁣⁢<Route>⁡.
   <Route path="/" element={<Layout />}>
     <Route index element={<h1>Home</h1>} /> {/* ⁡⁢⁣⁣index⁡ дает понять что эта ⁡⁣⁣⁢страница⁡ (⁡⁣⁣⁢Роут⁡) будeт ⁡⁢⁣⁣главной (по умолчанию)⁡. 
     Eсли у вас есть ⁡⁢⁣⁣⁡⁣⁣⁢вложенные маршруты⁡⁡, то ⁡⁢⁣⁣<Route index />⁡ будет использоваться для отображения ⁡⁣⁣⁢компонента по умолчанию⁡ */}
