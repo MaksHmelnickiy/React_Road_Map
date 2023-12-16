@@ -41,6 +41,7 @@ import { MyNestedRoutes } from './LearnReact/React_Router/Вложенные_р�
 import { MyUseMatch } from './LearnReact/React_Router/React-Router_Hooks/useMatch';
 import { MyUseMatchTask } from './LearnReact/React_Router/React-Router_Hooks/useMatch/task';
 import { MyRoute } from './LearnReact/React_Router/Предзагрузка_данных_через_Роутинг';
+import { MyErrorElement } from './LearnReact/React_Router/ErrorElement';
 
 
 function App() {
@@ -110,7 +111,8 @@ function App() {
       {/* <MyUseMatchTask /> */}
 
       {/* ⁡⁣⁣⁢Предзагрузка_данных_через_Роутинг⁡ */}
-      <MyRoute />
+      {/* <MyRoute /> */}
+      <MyErrorElement />
     </div>
   );
 }

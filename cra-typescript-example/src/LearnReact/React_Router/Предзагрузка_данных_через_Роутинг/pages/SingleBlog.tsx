@@ -4,7 +4,7 @@ import { IBlog } from "./Blog";
 
 interface ISingleBlog {
   id: number;
-  post: IBlog
+  post: IBlog;
 }
 
 // Здесь мы будем использовать немного ⁡⁣⁢⁣другой подход⁡ , где будем использовать хук useAsyncValue() в файле ⁡⁣⁣⁢Blog.tsx⁡ у нас его не было. 
@@ -20,7 +20,7 @@ const Post = () => {
 }
 
 export const SingleBlog = () => {
-  const {id, post} = useLoaderData() as ISingleBlog;
+  const {id, post} = useLoaderData() as ISingleBlog; // благодаря хуку ⁡⁢⁣⁣useLoaderData⁡ мы получаем те самые посты из ⁡⁣⁣⁢loader={singleBlogLoader}⁡ /
   const navigate = useNavigate()
   const onBack = React.useCallback(()=>{
     navigate(-1)
