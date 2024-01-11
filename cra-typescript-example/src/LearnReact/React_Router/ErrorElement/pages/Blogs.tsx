@@ -26,6 +26,7 @@ const Posts = () => {
 export const Blog = () => {
   const { posts } = useLoaderData() as IPosts; // ⁡⁢⁣⁡⁢⁣⁢Всегда выводи в консоль⁡ и смотри что там⁡⁡! А здесь возвращается ⁡⁣⁣⁢проммис⁡.
   console.log('bleee', posts)
+  // console.log([] + null + 1)
   return (
     <div>
       <ul>
