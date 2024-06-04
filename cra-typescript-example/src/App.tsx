@@ -112,7 +112,7 @@ function App() {
 
       {/* ⁡⁣⁣⁢Предзагрузка_данных_через_Роутинг⁡ */}
       {/* <MyRoute /> */}
-      <MyErrorElement />
+      {/* <MyErrorElement /> */}
     </div>
   );
 }
