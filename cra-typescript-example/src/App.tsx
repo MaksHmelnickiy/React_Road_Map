@@ -42,6 +42,11 @@ import { MyUseMatch } from './LearnReact/React_Router/React-Router_Hooks/useMatc
 import { MyUseMatchTask } from './LearnReact/React_Router/React-Router_Hooks/useMatch/task';
 import { MyRoute } from './LearnReact/React_Router/Предзагрузка_данных_через_Роутинг';
 import { MyErrorElement } from './LearnReact/React_Router/ErrorElement';
+import { MyReactRedux } from './LearnReact/Redux/React_Redux';
+import  {MyReduxTask1} from './LearnReact/Redux/React_Redux/Reducers/task1';
+import { MyReactReduxTask2 } from './LearnReact/Redux/React_Redux/Reducers/task2';
+import { MyTask3Redux } from './LearnReact/Redux/React_Redux/Reducers/task3';
+import { ReduxTask4 } from './LearnReact/Redux/React_Redux/Reducers/task4';
 
 
 function App() {
@@ -113,6 +118,13 @@ function App() {
       {/* ⁡⁣⁣⁢Предзагрузка_данных_через_Роутинг⁡ */}
       {/* <MyRoute /> */}
       {/* <MyErrorElement /> */}
+
+      {/* ​‌‍‌⁡⁢⁣⁣REACT - REDUX⁡​  */}
+      {/* <MyReactRedux /> */}
+      {/* <MyReduxTask1 /> */}
+      {/* <MyReactReduxTask2 /> */}
+      {/* <MyTask3Redux /> */}
+      <ReduxTask4 />
     </div>
   );
 }
