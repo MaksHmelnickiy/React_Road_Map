@@ -47,6 +47,7 @@ import  {MyReduxTask1} from './LearnReact/Redux/React_Redux/Reducers/task1';
 import { MyReactReduxTask2 } from './LearnReact/Redux/React_Redux/Reducers/task2';
 import { MyTask3Redux } from './LearnReact/Redux/React_Redux/Reducers/task3';
 import { ReduxTask4 } from './LearnReact/Redux/React_Redux/Reducers/task4';
+import ReduxThunkTask5 from './LearnReact/Redux/React_Redux/Reducers/task5/auth';
 
 
 function App() {
@@ -124,7 +125,8 @@ function App() {
       {/* <MyReduxTask1 /> */}
       {/* <MyReactReduxTask2 /> */}
       {/* <MyTask3Redux /> */}
-      <ReduxTask4 />
+      {/* <ReduxTask4 /> */}
+      <ReduxThunkTask5 />
     </div>
   );
 }

@@ -20,6 +20,7 @@ let arrayLike = {
     age: 33
   }
 
+
   const arr3 = Array.from(obj3)
   console.log(arr3)
 

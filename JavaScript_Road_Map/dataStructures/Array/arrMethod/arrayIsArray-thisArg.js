@@ -3,9 +3,10 @@
 
 let a = ''
 let arr =['d','d','2']
+let obj = {a: 1, b: 2}
 console.log(Array.isArray(a)) // вернет ⁡⁣⁢⁢false⁡ так как это строка
 console.log(Array.isArray(arr)); // вернет ⁡⁣⁢⁢true⁡ так как это массив
-
+console.log(Array.isArray(obj)) // ⁡⁣⁢⁢false⁡
 arr.forEach(function(item, i , arre){
     console.log(`${item} + ${i} + ${arre}`)
     return item = '2'
