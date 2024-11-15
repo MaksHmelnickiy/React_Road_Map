@@ -23,6 +23,10 @@ let arrayLike = {
   const arr3 = Array.from(obj3)
   console.log(arr3)
 
+  const arrToObj = ['maks', 'fast', 'last'];
+  console.log('@array before spread', arrToObj)
+  const newObj = {...arrToObj}
+  console.log('@array after spread (...)@', newObj)
 // Что бы превратить массив в объект используйте оператор ⁡⁢⁣⁣Spread - {...arr}⁡ или  ⁡⁢⁣⁣Object.assign({}, array)⁡;
 
 // ⁡⁢⁣⁣Object.assign()⁡ — это метод в JavaScript, используемый для ⁡⁣⁣⁢копирования значений⁡ всех собственных перечисляемых свойств 
@@ -30,8 +34,12 @@ let arrayLike = {
 // Этот метод часто используется для создания копий объектов ⁡⁣⁣⁢и⁡⁡⁣⁣⁢ли для слияния нескольких объектов в один⁡.
 
 const array = ['foo', 'boo', 'zoo'];
-const obj = Object.assign({}, array);   // ⁡⁢⁣⁡⁢⁣⁣Object.assign({}, array)⁡ /
-console.log(obj)
+const objTest = {first: 'sec', second: 'min'}
+const obj = Object.assign({}, array, objTest);   // ⁡⁢⁣⁡⁢⁣⁣Object.assign({}, array)⁡ / {} первое значение это ⁡⁢⁣⁣целевой объект⁡ ⁡⁣⁣⁢куда⁡ копируем, остальные ⁡⁣⁣⁢откуда⁡ копируем.
+                                        // Тоже самое  let obj;  Object.assign(obj, array)
+console.log('obj', obj) // result: {0: 'foo', 1: 'boo', 2: 'zoo', first: 'sec', second: 'min'}
 
 const arrSp = ["foo", "boo", "zoo"];
-const obj2 = {...arr};                  // ⁡⁢⁣⁡⁢⁣⁣Spread - {...arr}⁡ /
+const obj2 = {...arrSp};                  // ⁡⁢⁣⁡⁢⁣⁣Spread - {...arr}⁡ /
+
+console.log('obj2', obj2)

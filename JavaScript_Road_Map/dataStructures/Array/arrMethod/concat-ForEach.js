@@ -4,7 +4,7 @@
 let arr = [1, 2];
 let arr2 = [3,4,5,6, 7, 8]
 
-let newArr = []
+let newArr = ['string']
 let result = newArr.concat(arr, arr2)
 console.log('Concat', result)
 
@@ -24,8 +24,19 @@ arr.forEach(function(item, index, array) {
     // ... делать что-то с item
 });
 
-let arrForEach = ["Bilbo", "Gandalf", "Nazgul"]
+const numbers = [1,2,3,4]
+numbers.forEach((item) => {item * 2})
+console.log('numbers' , numbers)
 
-arrForEach.forEach((item, index, array) => {
-    console.log(`${item} имеет позицию ${index} в ${array}`);
-});
+// Важно отметить, что ⁡⁢⁣⁣forEach⁡ ⁡⁢⁣⁢не создает⁡ новый массив, и любые изменения, внесенные внутри функции обратного вызова, ⁡⁢⁣⁢не изменяют⁡ ⁡⁣⁣⁢оригинальный массив⁡. 
+// Если вы хотите создать новый массив на основе измененных значений, вы можете вместо этого использовать ⁡⁢⁣⁣map⁡.
+
+// Если уж нужно его изменить , можно воспользоваться третим значением ⁡⁢⁣⁣thisArg⁡ например :
+
+const changeArrWithforEach = [1,2,3,4,5]
+changeArrWithforEach.forEach((num,index,thisArg) => {
+    console.log('thisArg', index, thisArg)
+    thisArg[index] = num * 2
+})
+
+console.log('changeArrWithforEach', changeArrWithforEach)
