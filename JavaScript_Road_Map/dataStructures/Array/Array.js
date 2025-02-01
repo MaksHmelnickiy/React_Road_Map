@@ -7,7 +7,7 @@ let arr = new Array();
 let arr2 = [];
 
 // В массиве могут храниться элементы ⁡⁢⁣⁣любого типа⁡.
-let arr3 = ['Test', true , function(){console.log(this)}, 3] // ⁡⁢⁣⁣this⁡ в функции будет выводить сам массив
+let arr3 = ['Test', true , function(){console.log('arr3', this)}, 3] // ⁡⁢⁣⁣this⁡ в функции будет выводить сам массив
 arr3[2]();
 
 // Получение ⁡⁢⁣⁣последнего элемента⁡ массива

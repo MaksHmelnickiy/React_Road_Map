@@ -10,6 +10,7 @@ let arr = ["Ilya", "Kantor"];
 // и surname = arr[1]
 let [firstName, surname] = arr;
 arr[0]="sss"
+
 console.log(firstName); // Ilya
 console.log(surname);  // Kantor
 

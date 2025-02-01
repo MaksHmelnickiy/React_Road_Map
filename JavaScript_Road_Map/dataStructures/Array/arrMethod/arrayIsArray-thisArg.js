@@ -3,10 +3,16 @@
 
 let a = {maks: 'klass', rita: 'fa'}
 let arr =['d','d','2']
+let obj = {a: 1, b: 2}
 console.log(Array.isArray(a)) // вернет ⁡⁣⁢⁢false⁡ так как это строка
 console.log(Array.isArray(arr)); // вернет ⁡⁣⁢⁢true⁡ так как это массив
+<<<<<<< HEAD
 
 arr.forEach((item, i , arre) => {
+=======
+console.log(Array.isArray(obj)) // ⁡⁣⁢⁢false⁡
+arr.forEach(function(item, i , arre){
+>>>>>>> eb24333b7ea9cb3afe111c395247acf8d099b86b
     console.log(`${item} + ${i} + ${arre}`)
     return item = '2'
 })
